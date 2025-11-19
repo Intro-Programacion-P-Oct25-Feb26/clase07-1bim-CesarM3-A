@@ -28,9 +28,11 @@ public class Ejemplo07 {
         double calificacion;
         boolean bandera = true;
 
-        int contador = 0;
-
+        int contador = 0; /* el contador nos avisa el numero de datos 
+        ingresados para dividir
+        */
         System.out.println("Ingrese las notas de los estudiantes de su materia");
+        // while (bandera==true)
         while (bandera) {
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
@@ -46,7 +48,10 @@ public class Ejemplo07 {
         }
 
         promedio_final = suma_total / contador;
+        // la division de la suma con el contador
         System.out.printf("El promedio final es %.2f\n", promedio_final);
+        
+        
 
     }
 }
