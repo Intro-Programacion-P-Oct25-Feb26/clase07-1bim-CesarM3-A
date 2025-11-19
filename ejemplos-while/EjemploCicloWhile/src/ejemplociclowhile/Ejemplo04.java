@@ -34,6 +34,7 @@ public class Ejemplo04 {
             contador = contador + 5;
         }
         
+        
         System.out.printf("La suma final es %d\n", suma);
         
     }
