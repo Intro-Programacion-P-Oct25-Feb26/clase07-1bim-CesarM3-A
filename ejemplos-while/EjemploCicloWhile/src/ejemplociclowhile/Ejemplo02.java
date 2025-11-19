@@ -18,7 +18,7 @@ public class Ejemplo02 {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        int limite;
+        int limite; // 6
         int contador = 1;
         System.out.println("Ingrese el Límite");
         limite = entrada.nextInt(); 
@@ -34,3 +34,7 @@ public class Ejemplo02 {
         
     }
 }
+/*
+Aqui podemos ver que el codigo nos printa solo los numeros divisibles para dos 
+por el segundo condicional.
+*/
